@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Chemical Reactions</title>
+        <link rel = "stylesheet" href = "reaction.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body background="chem_bg.jpg">
+        <center>
+        <h1 id = "heading" class = "btn btn-primary">Chemical Reactions </h1>
+
+        <br><br>
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-info col-lg-12 col-md-12 col-sm-12 col-xs-12 new_li">
+                <h4>Direct Combination Reaction</h4>
+                <video class="img-responsive col-lg-6 col-md-6 col-sm-6 col-xs-12" controls><source src="synthesis1.mp4" type="video/mp4"></video>
+                <div class="list-group-item-text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <p>
+                        A + B &#8594 AB<br><br>
+                        <b>Types : </b><br>
+                        <ul>
+                            <li>Element 1 + Element 2 &#8594 Compound </li>
+                            <li>Compound + Element &#8594 New Compound </li>
+                            <li>Compund 1 + Compound 2 &#8594 New Compound </li>
+                        </ul>
+                    </p>
+                </div>
+            </li>
+
+            <li class="list-group-item list-group-item-info col-lg-12 col-md-12 col-sm-12 col-xs-12 new_li">
+                <h4>Decomposition Reaction</h4>
+                <video class="img-responsive col-lg-6 col-md-6 col-sm-6 col-xs-12" controls><source src="decomposition.mp4" type="video/mp4"></video>
+                <div class="list-group-item-text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <p>
+                        <b>Some Types of Thermal Decomposition : </b><br>
+                        <ul>
+                            <li>Decomposition of metal carbonates </li>
+                            <li>Decomposition of metal hydroxides </li>
+                            <li>Decomposition of metal oxides </li>
+                            <li>Decomposition of metal nitrates</li>
+                        </ul><br>
+                        <b>Some other Decomposition reactions include :</b><br>
+                        <ul>
+                            <li>Electrolytic decomposition</li>
+                            <li>Thermal dissociation</li>
+                            <li>Photochemical decomposition</li>
+                        </ul>
+                    </p>
+                </div>
+            </li>
+
+            <li class="list-group-item list-group-item-info col-lg-12 col-md-12 col-sm-12 col-xs-12 new_li">
+                <h4>Simple Displacement Reaction</h4>
+                <video class="img-responsive col-lg-6 col-md-6 col-sm-6 col-xs-12" controls><source src="displace.mp4" type="video/mp4"></video>
+                <div class="list-group-item-text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <p>
+                        <b>Categories : </b>
+                        <ul>
+                            <li>Reaction of active metal with dilute acid</li>
+                            <li>Reaction of active metal with water</li>
+                            <li>Reaction of a metal with salt of another metal</li>
+                        </ul>
+                    </p>
+                </div>
+            </li>
+
+            <li class="list-group-item list-group-item-info col-lg-12 col-md-12 col-sm-12 col-xs-12 new_li">
+                <h4>Double Decomposition Reaction</h4>
+                <video class="img-responsive col-lg-6 col-md-6 col-sm-6 col-xs-12" controls><source src="decomposition2.mp4" type="video/mp4"></video>
+                <div class="list-group-item-text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <p>
+                        <b>Categories : </b>
+                        <ul>
+                            <li>Neutralization reaction</li>
+                            <li>Precipitation reaction</li>
+                        </ul>
+                    </p>
+                </div>
+            </li>
+
+            <button id = "back" onclick="home()"></button>
+        </ul>
+        
+        </center>
+        <script>
+            function home(){
+                window.location = "index.html";
+            }
+        </script>
+    </body>
+</html>

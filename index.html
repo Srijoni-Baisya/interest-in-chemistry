@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Chemical Formulae</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body background="chem_bg.jpg">
+        <center>
+        <span><h1 id = "home_heading" class = "btn btn-primary"> <img src="icon.png" id = "icon">Chemistry is Interesting ! </h1></span>
+        
+        <br>
+
+        <h4 id = "info">Let's delve deeper into the world of chemistry and unravel its mysteries. Students who think that Chemistry is all about memorizing equations and formulae are absolutely mistaken. When one tries to understand the basis of every scientic phenomenon, they get to realize the amazing facts this subject provides us with. From my point of view, equations or formulae are not to be mugged up. If one tries to understand the concept thoroughly or takes an interesting journey trying to point out the various properties of a reaction, one realizes that this subject is just mind-blowing. </h4>
+
+        <div>
+            <button class = "btn_feature" id = "formula" onclick="get_formula()"></button>
+            <button class = "btn_feature" id = "periodic_table" onclick="get_trends()"></button>
+        </div>
+        
+        <div>
+            <button class = "btn_feature" id = "gases" onclick="get_preparation()"></button>
+            <button class = "btn_feature" id = "reactions" onclick="get_reaction()"></button>
+        </div>
+
+        <br>
+        <div id = "refer">
+            <a href="tricks.html">Check out amazing tricks and useful links >></a>
+        </div>
+        
+        <br>
+
+        </center>
+        <script>
+            function get_formula(){
+                window.location = "formula.html"
+            }
+
+            function get_trends(){
+                window.location = "trends.html";
+            }
+
+            function get_preparation(){
+                window.location = "lab.html";
+            }
+
+            function get_reaction(){
+                window.location = "reaction.html";
+            }
+        </script>
+    </body>
+</html>

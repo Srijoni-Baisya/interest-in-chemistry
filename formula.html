@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Chemical Formulae</title>
+        <link rel = "stylesheet" href = "formula.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body background="chem_bg.jpg">
+        <center>
+        <h1 id = "heading" class = "btn btn-primary">Formula Making </h1>
+        <br><br>
+        <h3 id ="aim">Do you find formula making difficult? <br> Let's try to make it easy!</h3>
+        <hr>
+        
+        <div id = "steps">
+        <h3><b> Take a look at the basic steps : </b></h3>
+        <p> 1. Write the names of the elements or radicals with their valency at the top.</p>
+        <h3>Ca <sup>2+</sup>           OH <sup>1-</sup></h3>
+        <p> 2. Interchange the valencies and write the numbers below the symbols.</p>
+        <h3>Ca <sub>1</sub>           OH <sub>2</sub></h3>
+        <p> 3. Write the formula using the interchanged valencies.</p>
+        <h3>Ca(OH)<sub>2</sub></h3>
+        <hr>
+        <p id = "note">Note :<br> 1. Ignore 1 while writing the formula : Eg. Sodium oxide (Na₂O) - valency of Sodium is 1+ <br>
+                      2. Ignore same valency while writing the formula : Eg. Calcium sulphate (CaSO₄) - valency of Ca is 2+ and that of SO₄ is 2-
+                         </p>
+        </div>
+        <br><br>
+        <h3 class = "info" id = "hint"> Enter the name of a compound :</h3>
+        <br>
+        <input class="form-control" id = "compound_name" placeholder="Name of a common compound">
+
+        <br>
+        <button class="btn btn-primary" id = "btn_formula" onclick="find_formula()"> Get Formula </button>
+        <h3 class = "info" id = "output"></h3>
+
+        <button id = "back" onclick="home()"></button>
+
+        </center>
+        <script src = "formula.js"></script>
+    </body>
+</html>
